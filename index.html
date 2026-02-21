@@ -3,97 +3,202 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sangwon Yoon - Lawyer, AI Researcher, Angel Investor</title>
+  <title>Sangwon Yoon</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Sangwon Yoon</h1>
-      <p>Lawyer, AI Researcher, and Angel Investor</p>
-      <p>Email: <a href="mailto:asd01075272750@gmail.com">asd01075272750@gmail.com</a> | Phone: +82-10-7257-2750</p>
-    </div>
-  </header>
 
-  <nav>
-    <ul>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#career">Career</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#portfolio">Venture Portfolio</a></li>
-      <li><a href="#awards">Awards</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#services">Services</a></li>
-    </ul>
+  <!-- Navigation -->
+  <nav class="top-nav">
+    <div class="nav-container">
+      <div class="nav-name">SANGWON YOON</div>
+      <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('show')">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="publication.html">Publication</a></li>
+        <li><a href="portfolio.html">Angel Portfolio</a></li>
+      </ul>
+    </div>
   </nav>
 
-  <main>
-    <section id="education" class="section">
-      <h2>Education</h2>
-      <ul>
-        <li>Seoul National University, B.A. in Economics (2014 – 2020)</li>
-        <li>Seoul National University, J.D., Cum Laude (2020 – 2023)</li>
-        <li>Korea University, M.S. in SW/AI Convergence (2023 – Present)</li>
+  <div class="container">
+
+    <!-- Hero / Bio -->
+    <section class="hero">
+      <div class="hero-left">
+        <div class="flip-card" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="profile.jpg.jpeg" alt="Sangwon Yoon" class="profile-photo">
+            </div>
+            <div class="flip-card-back">
+              <img src="capybara.jpg" alt="Capybara" class="profile-photo">
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/senator_yoon/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/sangwon-yoon-7690a6222" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://scholar.google.com/citations?user=l5XPHtQAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://blog.naver.com/sangwon38383" target="_blank" title="Blog"><i class="fab fa-blogger-b"></i></a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <h1 class="name"><span class="first-name">SANGWON</span> <span class="last-name">YOON</span></h1>
+
+        <div class="bio">
+          <p>
+            I am an attorney at the International Cooperation Division of the <a href="https://www.spo.go.kr/site/spo/main.do" target="_blank">Supreme Prosecutors' Office of Korea</a>. I graduated from <a href="https://econ.snu.ac.kr" target="_blank">Seoul National University</a> with a B.A. in Economics and a J.D. (cum laude) from <a href="https://law.snu.ac.kr" target="_blank">Seoul National University School of Law</a>. Previously, I served as an advocate at the <a href="https://www.spo.go.kr/site/highdaegu/main.do" target="_blank">Daegu High Prosecutors' Office</a>.
+          </p>
+          <p>
+            I am also an AI research engineer and an angel investor who backs startups with a vision to transform society through AI technology. I am currently pursuing an M.S. in <a href="https://gscit.korea.ac.kr/gscit" target="_blank">SW/AI Convergence at Korea University</a> under the supervision of <a href="https://sites.google.com/view/sungjoon-choi" target="_blank">Prof. Sungjoon Choi</a>. Prior to this, I worked as an engineer at NCsoft R&D Lab and as Co-founder/Head of AI at <a href="https://www.artificial.sc" target="_blank">Artificial Society</a>. My research on LLM applications in law and economics has been published in top accounting journals and AI conferences.
+          </p>
+          <p>
+            I am very open to various types of consulting or co-work inquiries. Feel free to reach out via email (<a href="mailto:asd01075272750@gmail.com">asd01075272750@gmail.com</a>) or <a href="https://www.linkedin.com/in/sangwon-yoon-7690a6222" target="_blank">LinkedIn</a>!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- Education -->
+    <section>
+      <h2 class="section-title">Education</h2>
+      <ul class="info-list">
+        <li>
+          <strong>Korea University</strong>, M.S. in SW/AI Convergence
+          <span class="period">2023 &ndash; Present</span>
+        </li>
+        <li>
+          <strong>Seoul National University</strong>, J.D., Cum Laude
+          <span class="period">2020 &ndash; 2023</span>
+        </li>
+        <li>
+          <strong>Seoul National University</strong>, B.A. in Economics
+          <span class="period">2014 &ndash; 2020</span>
+        </li>
       </ul>
     </section>
 
-    <section id="career" class="section">
-      <h2>Career</h2>
-      <ul>
-        <li>Developer at NCsoft (2019 – 2020)</li>
-        <li>Head of AI Research at Artificial Society (2021 – 2023)</li>
-        <li>Attorney at Supreme Prosecutor’s Office (2023 – Present)</li>
+    <hr class="section-divider">
+
+    <!-- Career -->
+    <section>
+      <h2 class="section-title">Career</h2>
+      <ul class="info-list">
+        <li>
+          <strong>Attorney</strong>, Supreme Prosecutors' Office
+          <span class="period">2024 &ndash; Present</span>
+        </li>
+        <li>
+          <strong>Attorney</strong>, Daegu High Prosecutors' Office
+          <span class="period">2023 &ndash; 2024</span>
+        </li>
+        <li>
+          <strong>Head of AI Research</strong>, Artificial Society
+          <span class="period">2021 &ndash; 2023</span>
+        </li>
+        <li>
+          <strong>Developer</strong>, NCsoft
+          <span class="period">2019 &ndash; 2020</span>
+        </li>
       </ul>
     </section>
 
-    <section id="publications" class="section">
-      <h2>Publications</h2>
-      <ul>
-        <li><strong>Vocal Delivery Quality in Earnings Conference Calls</strong>, Forthcoming, Journal of Accounting and Economics</li>
-        <li><strong>DEBATE: Devil’s Advocate-Based Assessment and Text Evaluation</strong>, ACL Findings 2024</li>
-        <li><strong>Corporate Bankruptcy Prediction with Domain-Adapted BERT</strong>, NACCL-SocialNLP 2022</li>
+    <hr class="section-divider">
+
+    <!-- Selected Publications -->
+    <section>
+      <h2 class="section-title">Selected Publications</h2>
+
+      <div class="pub-card-inline">
+        <div class="pub-card-header">
+          <span class="pub-venue-badge">JAE 2025</span>
+          <span class="pub-card-title"><a href="https://www.sciencedirect.com/science/article/pii/S0165410124000934" target="_blank">Vocal Delivery Quality in Earnings Conference Calls</a></span>
+        </div>
+        <div class="pub-authors">
+          Bok Baik*, Alex Kim*, David Sunghyo Kim*, <span class="me">Sangwon Yoon</span>*
+          <span class="equal-contrib">(* equal contribution)</span>
+        </div>
+        <p class="pub-abstract">We study the economic consequences of managers' vocal delivery quality during earnings conference calls. We introduce a novel measure, vocal delivery quality, that captures the acoustic comprehensibility of audio information for an average listener. Our measure relies on a deep-learning algorithm applied to a large sample of earnings call audio files. Consistent with predictions from the psychology and accounting literatures, we find evidence that the quality of managers' vocal delivery deteriorates when they deliver negative news, such as a decrease in earnings or negative narrative information, and positive but transitory earnings news. We show that the stock market reacts in real time to managers' vocal delivery quality. We also document that the vocal delivery quality has an effect on information intermediaries such as analysts and the media. Overall, our findings underscore the role of vocal dimensions in financial communication.</p>
+      </div>
+
+      <div class="pub-card-inline">
+        <div class="pub-card-header">
+          <span class="pub-venue-badge">ACL 2024</span>
+          <span class="pub-card-title"><a href="https://aclanthology.org/2024.findings-acl.112/" target="_blank">DEBATE: Devil's Advocate-Based Assessment and Text Evaluation</a></span>
+        </div>
+        <div class="pub-authors">
+          Alex Kim*, Gunwoo Kim*, <span class="me">Sangwon Yoon</span>*
+          <span class="equal-contrib">(* equal contribution)</span>
+        </div>
+        <p class="pub-abstract">As natural language generation (NLG) models have become prevalent, systematically assessing the quality of machine-generated texts has become increasingly important. Recent studies introduce LLM-based evaluators that operate as reference-free metrics, demonstrating their capability to adeptly handle novel tasks. However, these models generally rely on a single-agent approach, which, we argue, introduces an inherent limit to their performance. This is because there exist biases in LLM agent's responses, including preferences for certain text structure or content. In this work, we propose DEBATE, an NLG evaluation framework based on multi-agent scoring system augmented with a concept of Devil's Advocate. Within the framework, one agent is instructed to criticize other agents' arguments, potentially resolving the bias in LLM agent's answers. DEBATE substantially outperforms the previous state-of-the-art methods in two meta-evaluation benchmarks in NLG evaluation, SummEval and TopicalChat. We also show that the extensiveness of debates among agents and the persona of an agent can influence the performance of evaluators.</p>
+      </div>
+
+      <p style="margin-top: 0.5em; font-size: 0.9em;">
+        <a href="publication.html">View all publications &rarr;</a>
+      </p>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- Columns & Books -->
+    <section>
+      <h2 class="section-title">Columns &amp; Books</h2>
+
+      <h3 style="color: #7B5232; margin-bottom: 0.6em; font-size: 1.1em;">Books</h3>
+      <ul class="info-list">
+        <li>
+          <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=342991259" target="_blank"><strong>인공지능법</strong></a>
+        </li>
+      </ul>
+
+      <h3 style="color: #7B5232; margin-top: 1.5em; margin-bottom: 0.6em; font-size: 1.1em;">Columns</h3>
+      <ul class="info-list">
+        <li>
+          <a href="https://www.lawtimes.co.kr/news/articleView.html?idxno=186976" target="_blank"><strong>AI가 작성한 판결기사</strong></a>
+          <span class="period">법률신문</span>
+        </li>
+        <li>
+          <a href="https://www.lawtimes.co.kr/news/articleList.html?sc_serial_code=SRN129&view_type=sm" target="_blank"><strong>법을 위한 AI</strong></a>
+          <span class="period">법률신문 연재</span>
+        </li>
+        <li>
+          <a href="https://www.lawtimes.co.kr/news/articleList.html?sc_serial_code=SRN139&view_type=sm" target="_blank"><strong>AI 뉴노멀</strong></a>
+          <span class="period">법률신문 연재</span>
+        </li>
+        <li>
+          <a href="https://www.lawtimes.co.kr/news/articleList.html?sc_serial_code=SRN166&view_type=sm" target="_blank"><strong>AI와 사는 법</strong></a>
+          <span class="period">법률신문 연재</span>
+        </li>
       </ul>
     </section>
 
-    <section id="portfolio" class="section">
-      <h2>Venture Portfolio</h2>
-      <ul>
-        <li>Artificial Society (Pre-A, $1,400K) - AI for language education</li>
-        <li>Blynx (Seed, $350K) - AI for corporate compliance</li>
-        <li>GenIP (Pre-Seed, $70K) - AI-based patent generation</li>
+    <hr class="section-divider">
+
+    <!-- Honors & Awards -->
+    <section>
+      <h2 class="section-title">Honors &amp; Awards</h2>
+      <ul class="info-list">
+        <li>
+          <strong>Korea Talent Medal</strong> (Presidential Award)
+          <span class="period">2012</span>
+        </li>
+        <li>
+          <strong>SemEval 2021 Runner-Up</strong> (Task 10: Source-Free Domain Adaptation)
+          <span class="period">2021</span>
+        </li>
       </ul>
     </section>
 
-    <section id="awards" class="section">
-      <h2>Awards</h2>
-      <ul>
-        <li>Korea Talent Medal (Presidential Award, 2012)</li>
-        <li>SemEval 2021 Runner-Up (Task 10: Source-Free Domain Adaptation)</li>
-      </ul>
-    </section>
-
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <ul>
-        <li>Programming: NLP, Computer Vision, RL</li>
-        <li>AI Model Lightweighting</li>
-        <li>Mechanism Design, Game Theory</li>
-        <li>Legal Expertise: Qualified in 12th Korean Bar Examination</li>
-      </ul>
-    </section>
-
-    <section id="services" class="section">
-      <h2>Services</h2>
-      <ul>
-        <li>Co-organizer: Workshop on LLMs and Generative AI for Finance (2024)</li>
-        <li>Secretary: Daegu District Compensation Committee (2023–2024)</li>
-        <li>Part-Time Lecturer: KAIST (2023 Fall)</li>
-      </ul>
-    </section>
-  </main>
+  </div>
 
   <footer>
-    <p>&copy; 2024 Sangwon Yoon. All Rights Reserved.</p>
+    <p>&copy; 2026 Sangwon Yoon. All Rights Reserved.</p>
   </footer>
+
 </body>
 </html>
