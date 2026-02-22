@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sangwonmain.github.io/sitemap.xml
+Sitemap: https://sangwyoon.github.io/sitemap.xml
